@@ -9,6 +9,7 @@ public class BalanceService {
     CustomerBalance customerBalance;
     GiftCardBalance giftCardBalance;
 
+
     public BalanceService(CustomerBalance customerBalance, GiftCardBalance giftCardBalance) {
         this.customerBalance = customerBalance;
         this.giftCardBalance = giftCardBalance;
