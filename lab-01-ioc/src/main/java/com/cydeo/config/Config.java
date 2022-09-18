@@ -17,27 +17,28 @@ public class Config {
 
     @Bean
 
-    public Current current() {
+    public Current current(Currency currency) {
         Current current = new Current();
-        current.setCurrency(new Currency("804", "USD"));
-        current.setAmount(new BigDecimal(1000));
+        current.setCurrency(currency);
+        // current.setCurrency(new Currency("804", "USD"));
+        current.setAmount(new BigDecimal(1200));
         current.setAccountId(UUID.randomUUID());
         return current;
     }
 
     @Bean
-    public Saving saving() {
+    public Saving saving(Currency currency) {
         Saving saving = new Saving();
-        saving.setCurrency(new Currency("804", "USD"));
+        saving.setCurrency(currency);
         saving.setAmount(new BigDecimal(1000));
         saving.setAccountId(UUID.randomUUID());
         return saving;
     }
 
- /*   @Bean
+    @Bean
     public Currency currency() {
-        return new Currency("currency code", "currency name");
-    }*/
+        return new Currency("802", "EUR");
+    }
 
 
 }

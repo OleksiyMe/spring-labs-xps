@@ -18,6 +18,7 @@ public class Saving {
 
 
     public void initialize(){
-        System.out.println("savings account " + "currency: "+ currency.getCode() + "amount: " + amount + "accountId" + accountId);
+        System.out.println("SAVINGS account: " + "currency "+ currency.getCode() + "; amount " +
+                amount + "; accountId is " + accountId);
     }
 }

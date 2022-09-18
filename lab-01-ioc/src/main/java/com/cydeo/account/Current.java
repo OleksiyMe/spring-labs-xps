@@ -16,6 +16,7 @@ public class Current {
     private UUID accountId;
 
     public void initialize(){
-        System.out.println("current account " + "currency: "+ currency.getCode() + "amount: " + amount + "accountId" + accountId);
+        System.out.println("CURRENT account: " + "currency "+ currency.getCode() +
+                "; amount " + amount + "; accountId is " + accountId);
     }
 }
