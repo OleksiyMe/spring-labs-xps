@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab-00-coupling" />
         <module name="lab-02-di" />
+        <module name="lab-03-springboot" />
+        <module name="lab-00-coupling" />
         <module name="lab-01-ioc" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="lab-00-coupling" target="11" />
       <module name="lab-01-ioc" target="11" />
       <module name="lab-02-di" target="11" />
+      <module name="lab-03-springboot" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="lab-00-coupling" options="-parameters" />
       <module name="lab-01-ioc" options="-parameters" />
       <module name="lab-02-di" options="-parameters" />
+      <module name="lab-03-springboot" options="-parameters" />
     </option>
   </component>
 </project>
