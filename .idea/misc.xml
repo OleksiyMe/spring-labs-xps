@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/lab-02-di/pom.xml" />
         <option value="$PROJECT_DIR$/lab-01-ioc/pom.xml" />
         <option value="$PROJECT_DIR$/lab-03-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-04-springmvc/pom.xml" />
       </list>
     </option>
   </component>
