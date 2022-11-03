@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lab-01-ioc" />
         <module name="lab-02-di" />
         <module name="lab-03-springboot" />
         <module name="lab-00-coupling" />
-        <module name="lab-01-ioc" />
+        <module name="lab-05-thymeleaf" />
+        <module name="lab-06-orm" />
         <module name="lab-04-springmvc" />
       </profile>
     </annotationProcessing>
@@ -20,6 +22,8 @@
       <module name="lab-02-di" target="11" />
       <module name="lab-03-springboot" target="17" />
       <module name="lab-04-springmvc" target="11" />
+      <module name="lab-05-thymeleaf" target="11" />
+      <module name="lab-06-orm" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +33,8 @@
       <module name="lab-02-di" options="-parameters" />
       <module name="lab-03-springboot" options="-parameters" />
       <module name="lab-04-springmvc" options="-parameters" />
+      <module name="lab-05-thymeleaf" options="-parameters" />
+      <module name="lab-06-orm" options="-parameters" />
     </option>
   </component>
 </project>
