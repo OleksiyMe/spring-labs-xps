@@ -1,5 +1,8 @@
 package com.cydeo.lab07ormqueries.repository;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public interface AddressRepository {
     //Write a derived query to get all address with a specific customer
     //Write a derived query to get address with a specific street
