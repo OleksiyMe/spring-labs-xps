@@ -1,13 +1,26 @@
 package com.cydeo.lab07ormqueries.repository;
 
+import com.cydeo.lab07ormqueries.entity.Category;
+import com.cydeo.lab07ormqueries.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Optional;
+
 @Repository
-public interface ProductRepository {
+public interface ProductRepository extends JpaRepository<Product, List> {
     //Write a derived query to get top 3 product order by price desc
+    List<Product> findTop3ByOrderByPriceDesc();
+
     //Write a derived query to get product by specific name
+    Optional<Product> findFirstByName(String name);
     //Write a derived query to get product by specific category
+
+    List<Product> findAllByCategoryListContains(Category category);
     //Write a derived query to get count by price greater than specific amount
+    Integer countProductByPriceGreaterThan(BigDecimal amount);
     //Write a derived query to get all product by quantity greater than or equal specific count
     //Write a native query to get all product by price greater than specific amount and quantity lower than specific count
     //Write a native query to get all product by specific categoryId
