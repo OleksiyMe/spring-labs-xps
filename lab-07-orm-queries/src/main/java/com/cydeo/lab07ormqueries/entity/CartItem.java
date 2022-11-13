@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 public class CartItem extends BaseEntity {
 
-    private Long quantity;
+    private Integer quantity;
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Cart cart;

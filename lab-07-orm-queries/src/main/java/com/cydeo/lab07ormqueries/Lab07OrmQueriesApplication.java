@@ -10,4 +10,6 @@ public class Lab07OrmQueriesApplication {
         SpringApplication.run(Lab07OrmQueriesApplication.class, args);
     }
 
+
+
 }
