@@ -16,7 +16,7 @@ import java.util.List;
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Long> {
     //Write a derived query to get top 5 orders by order by total price desc
-    List<Order> findTop5ByOrderByTotalPrice(BigDecimal totalPrice);
+    List<Order> findTop5ByOrderByTotalPrice();
 
     //Write a derived query to get all orders by customer email
     List<Order> findByCustomerEmail(String email);

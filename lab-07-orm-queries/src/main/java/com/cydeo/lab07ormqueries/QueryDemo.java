@@ -29,5 +29,9 @@ public class QueryDemo implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+      //  System.out.println(orderRepository.findTop5ByOrderByTotalPrice());
+
+        System.out.println("\n ==============IT'S WORKING :) ================ \nTest customer name is: "
+                + customerRepository.findById(2L).orElse(null).getFirst_name());
     }
 }
