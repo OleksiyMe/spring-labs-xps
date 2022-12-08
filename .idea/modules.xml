@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/lab-05-thymeleaf/lab-05-thymeleaf.iml" filepath="$PROJECT_DIR$/lab-05-thymeleaf/lab-05-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-06-orm/lab-06-orm.iml" filepath="$PROJECT_DIR$/lab-06-orm/lab-06-orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-07-orm-queries/lab-07-orm-queries.iml" filepath="$PROJECT_DIR$/lab-07-orm-queries/lab-07-orm-queries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-08-rest/lab-08-rest.iml" filepath="$PROJECT_DIR$/lab-08-rest/lab-08-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-labs.iml" filepath="$PROJECT_DIR$/.idea/spring-labs.iml" />
     </modules>
   </component>
